@@ -1,3 +1,4 @@
+import sys
 class stack:
     top_ind=-1
     st_list=[]
@@ -27,7 +28,7 @@ class stack:
 N = int(input())
 st = stack()
 for i in range(N):
-    s = input().split()
+    s = sys.stdin.readline().split()
     if s[0]=='push':
         st.push(s[1])
     if s[0]=='pop':
