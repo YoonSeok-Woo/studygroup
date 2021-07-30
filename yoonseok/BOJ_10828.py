@@ -1,7 +1,10 @@
+import sys
 class stack:
+    top_ind=-1
+    st_list=[]
     def __init__(self):
         self.top_ind=-1
-        self.st_list=[]
+        st_list=[]
     def empty(self):
         if self.top_ind==-1 :
             return True
@@ -21,24 +24,23 @@ class stack:
             self.top_ind-=1
     def size(self):
         return self.top_ind+1
+
 N = int(input())
-inputs = list(map(int,input().split()))
-ins = stack()
-for i in inputs :
-    ins.push(i)
-ans = stack()
-nge = stack()
-while not ins.empty():
-    if nge.empty():
-        ans.push(-1)
-        nge.push(ins.top())
-        ins.pop()
-    elif ins.top()>=nge.top():
-        nge.pop()
-    else :
-        ans.push(nge.top())
-        nge.push(ins.top())
-        ins.pop()
-while not ans.empty():
-    print(ans.top(),end=' ')
-    ans.pop()
+st = stack()
+for i in range(N):
+    s = sys.stdin.readline().split()
+    if s[0]=='push':
+        st.push(s[1])
+    if s[0]=='pop':
+        print(st.top())
+        st.pop()
+    if s[0]=='size':
+        print(st.size())
+    if s[0]=='empty':
+        if st.empty() :
+            print(1)
+        else :
+            print(0)
+    if s[0]=='top':
+        print(st.top())
+    

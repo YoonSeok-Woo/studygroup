@@ -1,3 +1,4 @@
+import sys
 class queue:
     q_list=[]
     f_index=0
@@ -37,7 +38,7 @@ class queue:
 N = int(input())
 a = queue()
 for i in range(N) :
-    command = input().split()
+    command = sys.stdin.readline().split()
     if command[0]=='push':
         a.push(command[1])
     elif command[0]=='pop':

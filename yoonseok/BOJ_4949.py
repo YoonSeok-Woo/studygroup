@@ -45,3 +45,4 @@ while 1 :
             print("yes")
         else :
             print("no")
+        del checking
