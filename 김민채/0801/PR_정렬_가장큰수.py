@@ -13,5 +13,5 @@ def solution(numbers):
     combis = list(permutations(str_num))
     new = []
     new = list(map(''.join, combis))
-    answer = sorted(new, key=int, reverse=True)[0]
+    answer = sorted(new, key=lambda x: (x[0], (x*2)[1], (x*3)[2]), reverse=True)[0]
     return answer
