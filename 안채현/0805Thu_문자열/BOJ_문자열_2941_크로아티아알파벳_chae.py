@@ -24,7 +24,7 @@ count -= user_input.count('dz=')        #dz=가 카운트된만큼 기존 count�
 #일반알파벳을 count에 더해서 count값을 재할당한후, print.하면 답이 나올 것 같다.
 
 for alph in cro_alpha:
-    # while user_input.count(alph) > 0:       #??? 질문! 왜 여기 while을 쓰면 답이 나오지 않는 것일까요..!
+    # while user_input.count(alph) > 0:       #??? 여기 while을 써보기
     user_input = user_input.replace(alph, '*')   #값을 재할당.
 
 #print(user_input)   #모든 크로아티아 문자가 제거된 순수 알파벳만 나옴.

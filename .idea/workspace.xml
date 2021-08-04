@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fb82395-6ddc-4c51-86f7-f7005cad9c90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/안채현/0805Thu_문자열/BOJ_문자열_2941_크로아티아알파벳_chae.py" beforeDir="false" afterPath="$PROJECT_DIR$/안채현/0805Thu_문자열/BOJ_문자열_2941_크로아티아알파벳_chae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/안채현/0805Thu_문자열/PR_숫자문자열과영단어_chae.py" beforeDir="false" afterPath="$PROJECT_DIR$/안채현/0805Thu_문자열/PR_숫자문자열과영단어_chae.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wHYpV98GBZe58Q2NUIx83oilvv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fb82395-6ddc-4c51-86f7-f7005cad9c90" name="Default Changelist" comment="" />
+      <created>1628117168195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628117168195</updated>
+    </task>
+    <servers />
+  </component>
+</project>

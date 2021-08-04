@@ -1,4 +1,4 @@
-#딕셔너리 형태로 문제를 풀 수 있을까?!! 생각해보기
+#딕셔너리 형태로 한번 더!! 
 """def solution(s):
     num_dict = {'zero':0, 'one':1, 'two':2, 'three':3, 'four':4, 'five':5, 'six':6, 'seven':7, 'eight':8, 'nine':9}
     num_list1 = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
