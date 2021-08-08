@@ -20,7 +20,6 @@ for b in range(1):
 #print(A_list)   ##[4, 1, 5, 2, 3]
 #print(B_list)   ##[1, 3, 7, 9, 5]
 
-
 for c in B_list:
     if c in A_list:
         print(1)

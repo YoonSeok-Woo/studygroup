@@ -61,3 +61,4 @@ else:   #z_winningrate < 99 **
 
 
 #참조: https://hillier.tistory.com/70
+#int(y/x)*100 은 오답, int((y*100/x))와 (y*100)/x는 정답인 저 ㅁ참조.
