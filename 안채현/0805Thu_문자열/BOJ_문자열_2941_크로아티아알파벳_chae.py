@@ -6,7 +6,7 @@ cro_alpha = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
 
 alpha_list = []
 count = 0
-for alph in cro_alpha:  
+for alph in cro_alpha:
     #1. if alph가 dz=인 경우, 굳이 이렇게 안해도 되겠는게.. 
     if alph in user_input:  #alph: dz= // user_input: dz=dz=dz=
         a = user_input.count(alph)
@@ -19,7 +19,7 @@ count -= user_input.count('dz=')        #dz=가 카운트된만큼 기존 count�
 #print(count)
 
 #이제 카운트가 나왔으니..! // 이 다음에는 for문 돌면서 제거도 가능할 것.
-#  크로아티아 문자들을 다 원본 스트링에서 제거해줘야 함.
+#크로아티아 문자들을 다 원본 스트링에서 제거해줘야 함.
 #그 뒤에 제거완료된 문자의 .len을 세면 그게 일반 알파벳
 #일반알파벳을 count에 더해서 count값을 재할당한후, print.하면 답이 나올 것 같다.
 

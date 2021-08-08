@@ -1,6 +1,7 @@
 def solution(files):
     answer=[]
     str=[]
+#solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"])
 
     for s in files:
         #print(s)    #img12.png  img10.png   img02.png   img1.png    IMG01.GIF   img2.JPG
@@ -32,12 +33,17 @@ def solution(files):
                                                         #[['img', 12, 'img12.png'], ['img', 10, 'img10.png'], ['img', 2, 'img02.png'], ['img', 1, 'img1.png'], ['img', 1, 'IMG01.GIF'], ['img', 2, 'img2.JPG']...]
     
     
-    s_list = sorted(str, key=lambda x:(x[0],x[1]))    #새로운 리스트(s_list)로 sorted된 리스트 할당.
+    s_list = sorted(str, key=lambda x:(x[0],x[1]))    #새로운 리스트(s_list)로 sorted된 리스트 할당. / 첫번째 자리수 기준 --> 두번째 자리수 기준 
     for indiv_list in s_list:                         #정렬된 리스트(s-list)안의 각각 리스트인자들(indiv_list)를 for문으로 돌림
         answer.append(indiv_list[2])                  #s_list안의 개별 indiv_list의 2번째값(s)를 출력
 
     print(answer)
     return answer
+
+solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"])
+solution(["F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"])
+
+
 
 #알게된 점:isdigit()함수 사용법, lambda 사용.
 #head에 대해, head가 아닌 부분에 대해 isdigit()을 이용.
