@@ -55,16 +55,16 @@ def solution(s):
     answer = 0
     pre_answer = s
 
-    for str_num in num_list1:
+    for str_num in num_list1:   #one4seveneight  #['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
         #print(str_num in s) #False True False False False False False True True False
         if str_num not in pre_answer:    #위 값이 False인 경우에는 그냥 지나감.
             pass
         else:
             index_in_num_list1 = num_list1.index(str_num)
-            a = pre_answer.replace(str_num, str(num_list2[index_in_num_list1]))  
+            a = pre_answer.replace(str_num, str(num_list2[index_in_num_list1]))  ##딕셔너리처럼 풀지 않고, 바로 자릿수 받아서 int를 str으로 바꿔서 넣으면 될 것!
             pre_answer = a      #a를 pre_answer에 재할당 (s에서 교체)
             #print(a)    #14seveneight one47eight one4seven8 
-        
+
     #print(pre_answer)   #값 확인용! 1478
     answer = int(pre_answer)
     #print(answer)   #최종 값 확인용!    1478    234567  234567  123
