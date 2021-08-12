@@ -5,7 +5,6 @@ for i in range(N):
     for j, num in enumerate(fl):
         arr_2d[i][j]=num
     del fl
-    print(arr_2d[i])
 for i, arr in enumerate(arr_2d):
     if(i==0):
         continue
@@ -14,5 +13,4 @@ for i, arr in enumerate(arr_2d):
             arr_2d[i][j]=arr_2d[i-1][j]+arr_2d[i][j]
         else:
             arr_2d[i][j] += max(arr_2d[i-1][j],arr_2d[i-1][j-1])
-    print(arr_2d[i])
 print(max(arr_2d[N-1]))

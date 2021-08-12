@@ -21,6 +21,4 @@ for num in arr:
         check[l] = num
         if l == ans : 
             now = num
-    #print(check, now)
-
 print(ans)

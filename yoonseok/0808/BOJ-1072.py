@@ -1,6 +1,5 @@
-from math import floor
 X,Y = map(int,input().split())
-Z = int(Y/X*100)
+Z = Y*100//X
 ans = -1
 l = 0
 r = 10000000000
@@ -10,8 +9,8 @@ else:
     while l<=r:
         mid = (l+r)//2
         if (Y+mid)*100//(X+mid) >Z:
-            ans = mid
             r = mid-1
+            ans = mid
         else :
             l = mid+1
-    print(r+1)
+    print(ans)
