@@ -1,5 +1,3 @@
-import sys
-sys.setrecursionlimit(10000)
 import queue
 N, M = map(int,input().split())
 con = [[] for x in range(N+1)]
@@ -22,6 +20,7 @@ for k in range(M):
     i, j = map(int,input().split())
     con[i].append(j)
     con[j].append(i)
+
 #print(con)
 for i in range(1,N+1):
     if connected[i]:
