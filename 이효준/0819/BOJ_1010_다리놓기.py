@@ -1,0 +1,1 @@
+# 참고: https://velog.io/@gfriend-yerin/BOJ-1010-%EB%8B%A4%EB%A6%AC%EB%86%93%EA%B8%B0

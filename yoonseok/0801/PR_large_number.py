@@ -1,7 +1,7 @@
 def solution(number, k):
     answer = number
     l = len(number)
-    remain = [True]*l
+
     count = 0
     i = 0
     while i < len(answer)-1:
