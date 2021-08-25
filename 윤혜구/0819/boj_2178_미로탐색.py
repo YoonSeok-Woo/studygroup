@@ -10,7 +10,6 @@ while queue:
         turn = len(queue)
         moves += 1
 
-    
     i, j = queue.pop(0)
     if i == N - 1 and j == M - 1:
         break
@@ -32,5 +31,3 @@ while queue:
     turn -= 1
 
 print(moves)
-
-    
