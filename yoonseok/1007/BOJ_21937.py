@@ -6,6 +6,7 @@ con = [[] for i in range(N+1)]
 for i in range(M):
     A, B = map(int,input().split())
     con[B].append(A)
+    
 visit = [False]*(N+1)
 X = int(input())
 
