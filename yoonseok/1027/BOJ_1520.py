@@ -22,5 +22,5 @@ def dfs(x,y):
     return cases[x][y]
 
 print(dfs(N-1,M-1))
-for i in range(N):
-    print(cases[i])
+#for i in range(N):
+#    print(cases[i])
